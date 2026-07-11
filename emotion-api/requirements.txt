@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+opencv-python-headless
+tensorflow
+numpy<2.3.0
+python-multipart
+boto3
+httpx
+# AWS IoT Device SDK v2 — used by relay_subscriber.py for MQTT
+awscrt
+awsiotsdk

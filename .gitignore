@@ -1,0 +1,21 @@
+# Secrets & certificates — NEVER commit
+certs/
+*.pem
+*.key
+*.crt
+*.pfx
+.env
+home.conf
+config.ini
+credentials*
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Models, logs, caches
+models/
+*.log
+.claude/
